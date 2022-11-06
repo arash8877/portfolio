@@ -1,0 +1,62 @@
+.home-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.home-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #c2bfbf;
+    padding-left: 20px;
+}
+
+.home-left-top {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.home-left-middle {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.home-left-bottom {
+    font-size: 0.7rem;
+    margin: 0;
+    text-align: left;
+}
+
+.home-right {
+    padding:6em 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.home-right :nth-child(1) {
+    padding: 20px 10px;
+    animation:move 5s infinite alternate
+    
+}
+.home-right :nth-child(2) {
+    padding: 20px 10px;
+    animation:move2 5s infinite alternate
+}
+@keyframes move {
+    0%{transform:translateX(0);}
+  20% {transform:translateX(2px)}
+  40% {transform:translateY(3px)}
+  60% {transform:translateX(5px)}
+  80% {transform:translateY(0px)}
+  100% {transform:translateX(0px)}
+}
+@keyframes move2 {
+    0%{transform:translateX(2px);}
+  20% {transform:translateX(1px)}
+  40% {transform:translateY(2px)}
+  60% {transform:translateX(3px)}
+  80% {transform:translateY(0px)}
+  100% {transform:translateX(0px)}
+}
