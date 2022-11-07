@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 60px;
+}  
+
+.footer a{
+    padding: 0 10px;
+    font-size: 20px;
+    color: #c2bfbf;
+}
+.footer a:hover {
+    color: #ffffff;
+}
+.footer a:active {
+    transform: scale(0.90);
+}

@@ -6,10 +6,11 @@ const Home = () => {
     <section className="home-wrapper">
       <div className="home-left">
         <p className="home-left-top">Hello, I'm</p>
-        <p className="home-left-middle">Arash</p>
+        <p className="home-left-middle">ARASH</p>
         <p className="home-left-bottom">
           Front end developer. I love building web pages and make product that
-          outstanding the companies
+          outstanding the companies. mmmm jyfhmhdmd lfykyfkyfkyfkfkytfkytdfkyt
+          gdkdktdktcdkgh kfktft yfkyfk yfytfytf p7trr6r 7f7t
         </p>
       </div>
       <div className="home-right">

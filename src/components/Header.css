@@ -4,10 +4,10 @@
     align-items: center;
     box-sizing: border-box;
     width: 100%;
-    height: 60px;
-    padding: 0 25px;
-    padding: 0 100px;
-    color: #c2bfbf
+    padding: 40px;
+    color: #c2bfbf;
+    position: fixed;
+    top: 0;
 }
 
 nav{
@@ -21,7 +21,7 @@ nav{
 nav a {
     text-decoration: none;
     height: 100%;
-    padding: 16px 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     display: block;
     color: #c2bfbf;
@@ -32,4 +32,8 @@ nav a:hover {
 }
 nav a:active {
     transform: scale(0.98);
+}
+
+.logo{
+    font-size: 30px;
 }
